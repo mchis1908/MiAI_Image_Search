@@ -1,0 +1,53 @@
+[
+    {
+        "object": 1,
+        "results": [
+            {
+                "path": "New_data\\tmg (3).png",
+                "distance": 1.0421607494354248
+            },
+            {
+                "path": "New_data\\tmg (2).png",
+                "distance": 1.0866845846176147
+            },
+            {
+                "path": "New_data\\tmg (4).png",
+                "distance": 1.0914497375488281
+            }
+        ]
+    },
+    {
+        "object": 2,
+        "results": [
+            {
+                "path": "New_data\\tmg (23).jpg",
+                "distance": 1.0953361988067627
+            },
+            {
+                "path": "New_data\\tmg (16).jpg",
+                "distance": 1.104248285293579
+            },
+            {
+                "path": "New_data\\tmg (17).jpg",
+                "distance": 1.1207678318023682
+            }
+        ]
+    },
+    {
+        "object": 3,
+        "results": [
+            {
+                "path": "New_data\\tmg (16).jpg",
+                "distance": 1.090227723121643
+            },
+            {
+                "path": "New_data\\tmg (23).jpg",
+                "distance": 1.0915493965148926
+            },
+            {
+                "path": "New_data\\tmg (8).jpg",
+                "distance": 1.1088128089904785
+            }
+        ]
+    }
+]

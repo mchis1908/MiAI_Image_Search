@@ -9,6 +9,7 @@ from PIL import Image
 import pickle
 import numpy as np
 
+
 # Ham tao model
 def get_extract_model():
     vgg16_model = VGG16(weights="imagenet")
@@ -40,7 +41,7 @@ def extract_vector(model, image_path):
 
 # Dinh nghia thu muc data
 
-data_folder = "dataset"
+data_folder = "New_data"
 
 # Khoi tao model
 model = get_extract_model()
