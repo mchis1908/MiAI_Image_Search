@@ -41,7 +41,7 @@ model = get_extract_model()
 
 # Định nghĩa URL của ảnh cần tìm kiếm
 # image_url = test
-image_url = 'https://cdn.gumac.vn/image/01/onpage/bai-5/ao-phong-nu-han-quoc-ha-noi210320191629187152.jpg'
+image_url = 'https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/457517/sub/vngoods_457517_sub7.jpg?width=750'
 
 # Tải ảnh từ URL
 response = requests.get(image_url)
