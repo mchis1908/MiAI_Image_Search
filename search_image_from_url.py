@@ -41,7 +41,7 @@ model = get_extract_model()
 
 # Định nghĩa URL của ảnh cần tìm kiếm
 # image_url = test
-image_url = 'https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/457517/sub/vngoods_457517_sub7.jpg?width=750'
+image_url = 'https://api.fastretailing.com/ugc/v1/uq/vn/SR_IMAGES/ugc_stylehint_uq_vn_photo_240327_1301134_c-600-800'
 
 # Tải ảnh từ URL
 response = requests.get(image_url)
@@ -85,8 +85,13 @@ for i, cropped_img in enumerate(cropped_images):
     distances = np.linalg.norm(vectors - search_vector, axis=1)
     
     # Sắp xếp và lấy ra K vector có khoảng cách ngắn nhất
-    K = 3
-    ids = np.argsort(distances)[:K]
+    valid_ids = np.where(distances <= 1.25)[0]
+    
+    if len(valid_ids) == 0:
+        continue 
+
+    K = 1
+    ids = valid_ids[np.argsort(distances[valid_ids])][:K]
     
     # Lưu kết quả
     nearest_images = [{"path": paths[id], "distance": float(distances[id])} for id in ids]

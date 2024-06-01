@@ -3,16 +3,8 @@
         "object": 1,
         "results": [
             {
-                "path": "New_data\\66587ec8b3bc9d55fabcd569.jpg",
-                "distance": 1.0679168701171875
-            },
-            {
-                "path": "New_data\\66587fb2b3bc9d55fabcd56f.jpg",
-                "distance": 1.0746339559555054
-            },
-            {
-                "path": "New_data\\6658801bb3bc9d55fabcd572.jpg",
-                "distance": 1.0900834798812866
+                "path": "New_data\\goods_468805_sub14_11zon.jpg",
+                "distance": 1.1820032596588135
             }
         ]
     },
@@ -20,16 +12,8 @@
         "object": 2,
         "results": [
             {
-                "path": "New_data\\66587e33b3bc9d55fabcd566.jpg",
-                "distance": 1.0640228986740112
-            },
-            {
-                "path": "New_data\\6658801bb3bc9d55fabcd572.jpg",
-                "distance": 1.0996546745300293
-            },
-            {
-                "path": "New_data\\66587fb2b3bc9d55fabcd56f.jpg",
-                "distance": 1.1022608280181885
+                "path": "New_data\\66588467b3bc9d55fabcd58a.jpg",
+                "distance": 1.214776873588562
             }
         ]
     }
